@@ -26,7 +26,27 @@ To create two specific classes — `Beans` and `Mango`. Then, create a **generic
 ---
 
 ## 💻 Program
-
+~~~
+class Beans ():
+    def type(self):
+        print("Vegetable")
+    def color(self):
+        print("Green")
+class Mango ():
+    def type(self):
+        print("Fruit")
+    def color(self):
+         print("Yellow")
+    def func(obj):
+        obj.type()
+        obj.color()
+obj_beans = Beans()
+obj_mango = Mango()
+func(obj_beans)
+func(obj_mango)
+~~~
 ## Output
+<img width="447" height="291" alt="443509228-44aface5-6566-44fe-a491-8551051cd2cc" src="https://github.com/user-attachments/assets/cd69e6ae-8be2-4ee9-9cdd-c691799c3316" />
 
 ## Result
+Therefore, the given Python program is successfully verified!
